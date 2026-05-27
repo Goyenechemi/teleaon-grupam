@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "process": "Proceso",
+    "solutions": "Soluciones",
+    "about": "Nosotros",
+    "insights": "Insights",
+    "getStarted": "Comenzar"
+  },
+  "hero": {
+    "title1": "Automatizamos procesos,",
+    "title2": "escalamos resultados.",
+    "subtitle": "Construimos sistemas operativos digitales invisibles. Eliminamos el ruido operativo para que su equipo pueda concentrarse en lo esencial: el crecimiento estratégico y la arquitectura de su negocio.",
+    "ctaPrimary": "Comenzar Evaluación"
+  },
+  "lixita": {
+    "badge": "Caso de Éxito",
+    "title": "Lixita",
+    "stat1": "+300% Eficiencia",
+    "stat2": "-40hrs/semana",
+    "mainVideoLabel": "Documental de Arquitectura Digital",
+    "description": "El desafío era claro: un cuello de botella en la gestión de inventario que paralizaba las operaciones diarias. Diseñamos un flujo de trabajo continuo integrando sus sistemas ERP existentes con notificaciones en tiempo real.",
+    "before": "Antes",
+    "after": "Después"
+  },
+  "solutionsHero": {
+    "badge": "Mira lo que es posible automatizar hoy",
+    "title1": "Esto es lo que otras empresas",
+    "title2": "ya dejaron de hacer a mano.",
+    "body": "La tecnología ya resolvió los cuellos de botella que frenan tu crecimiento. Descubre los problemas diarios que ya no deberías estar resolviendo con tiempo humano."
+  },
+  "modules": {
+    "explore": "Ver cómo lo resolvimos",
+    "MOD_01": {
+      "title": "Revisión Legal Automática",
+      "description": "¿Tienes contratos que revisar manualmente antes de firmar? Automatiza la lectura y detecta riesgos antes de que se conviertan en problemas."
+    },
+    "MOD_02": {
+      "title": "Conexión de Sistemas",
+      "description": "¿Tu equipo pierde tiempo pasando datos de un sistema a otro? Conecta todas tus plataformas y haz que la información fluya sola."
+    },
+    "MOD_03": {
+      "title": "Auditoría y Seguridad",
+      "description": "¿Te preocupa que un error humano comprometa la seguridad de tu empresa? Monitorea tus políticas de infraestructura las 24 horas del día."
+    },
+    "MOD_04": {
+      "title": "Extracción de Datos",
+      "description": "¿Alguien en tu equipo pasa horas copiando datos de facturas a un Excel? Deja que la IA lea y organice la información al instante."
+    },
+    "MOD_05": {
+      "title": "Analítica en Tiempo Real",
+      "description": "¿Tomas decisiones basadas en reportes de la semana pasada? Visualiza el rendimiento exacto de tu empresa en este preciso momento."
+    },
+    "MOD_06": {
+      "title": "Sincronización Total",
+      "description": "¿Tus bases de datos, CRM y ERP están desconectados? Sincroniza bidireccionalmente toda tu operación sin fallas humanas."
+    },
+    "MOD_07": {
+      "title": "Automatización de Ventas",
+      "description": "¿Pierdes clientes porque tu equipo de ventas tarda en dar seguimiento? Automatiza la calificación y el contacto inicial sin perder el toque humano."
+    },
+    "MOD_08": {
+      "title": "Agente de Atención",
+      "description": "¿Tus clientes esperan horas por una respuesta en WhatsApp? Resuelve dudas, agenda citas y vende 24/7 con un agente IA nativo."
+    },
+    "MOD_09": {
+      "title": "Reportes Automáticos",
+      "description": "¿Odias armar reportes el lunes en la mañana? Recibe análisis completos y visuales directamente en tu correo antes de que llegues a la oficina."
+    },
+    "bottomCtaText": "¿No encuentras lo que buscas? Cuéntanos tu proceso y lo construimos.",
+    "bottomCtaButton": "Hablar con el equipo"
+  },
+  "form": {
+    "title": "Diagnóstico de tu Sistema",
+    "subtitle": "Completa este diagnóstico para obtener una estimación del costo de tu automatización",
+    "next": "Siguiente Fase",
+    "prev": "Retroceder",
+    "submit": "Solicitar Propuesta",
+    "otherPlaceholder": "Por favor, especifica...",
+    "internalToolsPlaceholder": "Ej. Base de datos SQL, CRM propio, etc.",
+    "options": {
+      "Ventas": "Ventas",
+      "Marketing": "Marketing",
+      "Operaciones": "Operaciones",
+      "RRHH": "RRHH",
+      "Finanzas": "Finanzas",
+      "Atención al cliente": "Atención al cliente",
+      "Otra": "Otra",
+      "Totalmente manual": "Totalmente manual",
+      "Hay herramientas pero sin integración": "Hay herramientas pero sin integración",
+      "Tenemos automatizaciones pero queremos mejorarlas": "Tenemos automatizaciones pero queremos mejorarlas",
+      "Automatizado listo para alojar": "Automatizado listo para alojar",
+      "Varias veces al día": "Varias veces al día",
+      "Una vez al día": "Una vez al día",
+      "Semanal": "Semanal",
+      "Mensual": "Mensual",
+      "Bajo demanda": "Bajo demanda",
+      "Solo yo": "Solo yo",
+      "2 a 5": "2 a 5",
+      "5 a 20": "5 a 20",
+      "Más de 20": "Más de 20",
+      "Google Sheets": "Google Sheets",
+      "Excel": "Excel",
+      "Gmail/Outlook": "Gmail/Outlook",
+      "WhatsApp": "WhatsApp",
+      "CRM": "CRM",
+      "ERP/SAP": "ERP/SAP",
+      "Slack/Teams": "Slack/Teams",
+      "Google Drive": "Google Drive",
+      "Otro": "Otro",
+      "Sí": "Sí",
+      "No": "No",
+      "Flujo lineal": "Flujo lineal",
+      "Flujo con lógica condicional": "Flujo con lógica condicional",
+      "Agente con IA": "Agente con IA",
+      "Flujo multi-agente": "Flujo multi-agente",
+      "Todavía no sé": "Todavía no sé"
+    },
+    "step1": {
+      "title": "01. Fase de Diagnóstico",
+      "area": "Área del Proceso",
+      "status": "Estado Actual",
+      "frequency": "Frecuencia de Ejecución"
+    },
+    "step2": {
+      "title": "02. Alcance Operativo y Herramientas",
+      "scale": "Usuarios Involucrados",
+      "tools": "Herramientas Actuales (Multi-selección)",
+      "internalTools": "¿Se conecta con herramientas internas?",
+      "sensitiveData": "¿Utiliza datos sensibles?"
+    },
+    "step3": {
+      "title": "03. Implementación",
+      "goal": "Tipo de flujo",
+      "contactTitle": "Contáctanos y agendaremos una reunión para diseñar un flujo ajustado a tu proyecto",
+      "name": "Nombre",
+      "company": "Empresa",
+      "email": "Email",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "footer": {
+    "terms": "Términos",
+    "privacy": "Privacidad",
+    "cookies": "Cookies",
+    "accessibility": "Accesibilidad"
+  }
+}

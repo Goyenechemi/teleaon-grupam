@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "process": "Process",
+    "solutions": "Solutions",
+    "about": "About",
+    "insights": "Insights",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title1": "We automate processes,",
+    "title2": "we scale results.",
+    "subtitle": "We build invisible digital operating systems. We eliminate operational noise so your team can focus on what's essential: strategic growth and your business architecture.",
+    "ctaPrimary": "Start Assessment"
+  },
+  "lixita": {
+    "badge": "Success Story",
+    "title": "Lixita",
+    "stat1": "+300% Efficiency",
+    "stat2": "-40hrs/week",
+    "mainVideoLabel": "Digital Architecture Documentary",
+    "description": "The challenge was clear: an inventory management bottleneck that paralyzed daily operations. We designed a continuous workflow integrating their existing ERP systems with real-time notifications.",
+    "before": "Before",
+    "after": "After"
+  },
+  "solutionsHero": {
+    "badge": "See what's possible to automate today",
+    "title1": "This is what other companies",
+    "title2": "already stopped doing by hand.",
+    "body": "Technology has already solved the bottlenecks slowing down your growth. Discover the daily problems you shouldn't be solving with human time anymore."
+  },
+  "modules": {
+    "explore": "See how we solved it",
+    "MOD_01": {
+      "title": "Automatic Legal Review",
+      "description": "Do you have contracts to review manually before signing? Automate reading and detect risks before they become problems."
+    },
+    "MOD_02": {
+      "title": "System Connection",
+      "description": "Is your team wasting time moving data from one system to another? Connect all your platforms and let information flow on its own."
+    },
+    "MOD_03": {
+      "title": "Audit & Security",
+      "description": "Worried that human error might compromise your company's security? Monitor your infrastructure policies 24/7."
+    },
+    "MOD_04": {
+      "title": "Data Extraction",
+      "description": "Someone on your team spending hours copying invoice data to Excel? Let AI read and organize the information instantly."
+    },
+    "MOD_05": {
+      "title": "Real-time Analytics",
+      "description": "Making decisions based on last week's reports? Visualize your company's exact performance right this second."
+    },
+    "MOD_06": {
+      "title": "Total Synchronization",
+      "description": "Are your databases, CRM and ERP disconnected? Bidirectionally sync your entire operation without human flaws."
+    },
+    "MOD_07": {
+      "title": "Sales Automation",
+      "description": "Losing clients because your sales team is slow to follow up? Automate qualification and initial contact without losing the human touch."
+    },
+    "MOD_08": {
+      "title": "Customer Service Agent",
+      "description": "Clients waiting hours for a WhatsApp reply? Resolve doubts, schedule appointments and sell 24/7 with a native AI agent."
+    },
+    "MOD_09": {
+      "title": "Automatic Reports",
+      "description": "Hate putting together reports on Monday morning? Receive complete, visual analytics directly in your inbox before you even reach the office."
+    },
+    "bottomCtaText": "Can't find what you're looking for? Tell us your process and we'll build it.",
+    "bottomCtaButton": "Talk to the team"
+  },
+  "form": {
+    "title": "System Diagnostic",
+    "subtitle": "Complete this diagnostic to get a cost estimate for your automation",
+    "next": "Next Phase",
+    "prev": "Go Back",
+    "submit": "Request Proposal",
+    "otherPlaceholder": "Please specify...",
+    "internalToolsPlaceholder": "e.g., SQL Database, custom ERP, etc.",
+    "options": {
+      "Ventas": "Sales",
+      "Marketing": "Marketing",
+      "Operaciones": "Operations",
+      "RRHH": "HR",
+      "Finanzas": "Finance",
+      "Atención al cliente": "Customer Service",
+      "Otra": "Other",
+      "Totalmente manual": "Completely manual",
+      "Hay herramientas pero sin integración": "Tools exist but no integration",
+      "Tenemos automatizaciones pero queremos mejorarlas": "We have automations but want to improve them",
+      "Automatizado listo para alojar": "Automated and ready to host",
+      "Varias veces al día": "Multiple times a day",
+      "Una vez al día": "Once a day",
+      "Semanal": "Weekly",
+      "Mensual": "Monthly",
+      "Bajo demanda": "On demand",
+      "Solo yo": "Just me",
+      "2 a 5": "2 to 5",
+      "5 a 20": "5 to 20",
+      "Más de 20": "More than 20",
+      "Google Sheets": "Google Sheets",
+      "Excel": "Excel",
+      "Gmail/Outlook": "Gmail/Outlook",
+      "WhatsApp": "WhatsApp",
+      "CRM": "CRM",
+      "ERP/SAP": "ERP/SAP",
+      "Slack/Teams": "Slack/Teams",
+      "Google Drive": "Google Drive",
+      "Otro": "Other",
+      "Sí": "Yes",
+      "No": "No",
+      "Flujo lineal": "Linear flow",
+      "Flujo con lógica condicional": "Flow with conditional logic",
+      "Agente con IA": "AI Agent",
+      "Flujo multi-agente": "Multi-agent flow",
+      "Todavía no sé": "I don't know yet"
+    },
+    "step1": {
+      "title": "01. Diagnostic Phase",
+      "area": "Process Area",
+      "status": "Current Status",
+      "frequency": "Execution Frequency"
+    },
+    "step2": {
+      "title": "02. Operational Scope & Tools",
+      "scale": "Users Involved",
+      "tools": "Current Tools (Multi-select)",
+      "internalTools": "Connects to internal tools?",
+      "sensitiveData": "Uses sensitive data?"
+    },
+    "step3": {
+      "title": "03. Implementation",
+      "goal": "Flow Type",
+      "contactTitle": "Contact us and we will schedule a meeting to design a flow tailored to your project",
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "footer": {
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "accessibility": "Accessibility"
+  }
+}
