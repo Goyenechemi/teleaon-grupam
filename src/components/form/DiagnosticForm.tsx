@@ -5,6 +5,7 @@ import { FormStep1 } from "./FormStep1";
 import { FormStep2 } from "./FormStep2";
 import { FormStep3 } from "./FormStep3";
 import type { FormData, FormStep } from "@/types/form";
+import { BookingSection } from "@/components/sections/BookingSection";
 
 // ─── Initial State ────────────────────────────────────────────
 const INITIAL_FORM_DATA: FormData = {
@@ -36,6 +37,7 @@ export function DiagnosticForm() {
   const { t } = useTranslation();
   const [currentStep, setCurrentStep] = useState<FormStep>(1);
   const [formData, setFormData] = useState<FormData>(INITIAL_FORM_DATA);
+  const [showBooking, setShowBooking] = useState(false);
 
   // ── Handlers ─────────────────────────────────────────────────
   const handleFieldChange = (
@@ -48,9 +50,7 @@ export function DiagnosticForm() {
   const goToStep = (step: FormStep) => setCurrentStep(step);
 
   const handleSubmit = () => {
-    // TODO: wire up to a real API / email service
-    console.log("Form submitted:", formData);
-    alert("¡Propuesta solicitada! Nos pondremos en contacto pronto.");
+    setShowBooking(true);
   };
 
   // ── Render ────────────────────────────────────────────────────
@@ -92,6 +92,15 @@ export function DiagnosticForm() {
           isActive={currentStep === 3}
         />
       </div>
+
+      {showBooking && (
+        <BookingSection
+          name={formData.name}
+          email={formData.email}
+          company={formData.company}
+        />
+      )}
+
     </div>
   );
 }

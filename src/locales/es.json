@@ -143,5 +143,16 @@
     "privacy": "Privacidad",
     "cookies": "Cookies",
     "accessibility": "Accesibilidad"
+  },
+  "booking": {
+    "badge": "Último paso",
+    "title": "Agenda tu sesión de diagnóstico",
+    "subtitle": "Selecciona el horario que mejor te funcione. Revisaremos tu proceso juntos y diseñaremos la automatización ideal."
+  },
+  "confirmation": {
+    "badge": "Reserva confirmada",
+    "title": "¡Nos vemos pronto!",
+    "subtitle": "Recibirás un correo con los detalles de la reunión. Revisaremos tu proceso y diseñaremos la automatización ideal para tu negocio.",
+    "cta": "Volver al inicio"
   }
 }

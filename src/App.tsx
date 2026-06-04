@@ -7,6 +7,7 @@ import { TopNavBar } from "@/components/layout/TopNavBar";
 import { Footer } from "@/components/layout/Footer";
 import { HomePage } from "@/pages/HomePage";
 import { SolutionsPage } from "@/pages/SolutionsPage";
+import { BookingConfirmationPage } from "@/pages/BookingConfirmationPage";
 
 /**
  * App
@@ -32,6 +33,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/solutions" element={<SolutionsPage />} />
+          <Route path="/booking-confirmation" element={<BookingConfirmationPage />} />
         </Routes>
 
         {/* Persistent footer */}

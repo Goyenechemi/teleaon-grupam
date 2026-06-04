@@ -143,5 +143,16 @@
     "privacy": "Privacy",
     "cookies": "Cookies",
     "accessibility": "Accessibility"
+  },
+  "booking": {
+    "badge": "Last step",
+    "title": "Schedule your diagnostic session",
+    "subtitle": "Pick the time that works best for you. We'll review your process together and design the ideal automation."
+  },
+  "confirmation": {
+    "badge": "Booking confirmed",
+    "title": "See you soon!",
+    "subtitle": "You'll receive an email with the meeting details. We'll review your process and design the ideal automation for your business.",
+    "cta": "Back to home"
   }
 }
