@@ -25,7 +25,7 @@ export function SolutionsCTA() {
   };
 
   return (
-    <section className="w-full py-stack-lg bg-surface-container-lowest border-t border-outline-variant">
+    <section className="w-full pt-8 pb-24 bg-surface-container-lowest border-t border-outline-variant">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex flex-col items-center justify-center text-center gap-stack-md reveal">
         {/* Single line body */}
         <h2 className="font-headline-md text-headline-md text-on-surface">

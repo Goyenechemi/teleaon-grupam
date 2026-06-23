@@ -8,8 +8,8 @@ import { cn } from "@/lib/utils";
 const NAV_LINKS = [
   { key: "process", to: "/" },
   { key: "solutions", to: "/solutions" },
-  { key: "about", to: "#" },
-  { key: "insights", to: "#" },
+  { key: "about", to: "/about" },
+  { key: "insights", to: "/insights" },
 ];
 
 /**

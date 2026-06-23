@@ -7,67 +7,249 @@
     "getStarted": "Get Started"
   },
   "hero": {
-    "title1": "We automate processes,",
-    "title2": "we scale results.",
-    "subtitle": "We build invisible digital operating systems. We eliminate operational noise so your team can focus on what's essential: strategic growth and your business architecture.",
-    "ctaPrimary": "Start Assessment"
+    "badge": "Automation + Agent Orchestration",
+    "title1": "There’s a difference between automating processes and having an operation that runs itself.",
+    "title2": "Most companies have been doing the first for years without ever reaching the second.",
+    "subtitle": "Automating a process is the starting point, not the destination. We take that and build the layer that turns it into a real system: automated processes that coordinate with each other, AI agents that work together with logic, traceability at every step, and synchronization across every platform you already use. We don’t sell tools. We build the system that makes your operation run without anyone having to supervise it.",
+    "ctaPrimary": "Let’s talk about your operation"
   },
   "lixita": {
-    "badge": "Success Story",
+    "badge": "A real client",
     "title": "Lixita",
     "stat1": "+300% Efficiency",
     "stat2": "-40hrs/week",
     "mainVideoLabel": "Digital Architecture Documentary",
-    "description": "The challenge was clear: an inventory management bottleneck that paralyzed daily operations. We designed a continuous workflow integrating their existing ERP systems with real-time notifications.",
+    "description": "When we got to Lixita, inventory was managed across spreadsheets, emails, and collective memory. Forty hours a week, split between copying, pasting, and double-checking. We connected their systems, automated the flows, and three months later those 40 hours came back. Now they use them to sell.",
     "before": "Before",
     "after": "After"
   },
   "solutionsHero": {
-    "badge": "See what's possible to automate today",
-    "title1": "This is what other companies",
-    "title2": "already stopped doing by hand.",
-    "body": "Technology has already solved the bottlenecks slowing down your growth. Discover the daily problems you shouldn't be solving with human time anymore."
+    "badge": "Automation + Agent Orchestration",
+    "title1": "We automate your processes.",
+    "title2": "We orchestrate your agents and AIs.",
+    "body": "If you already use AI tools or agents, we connect them to each other and to the rest of your operation so they work together. If you don't have them yet, we build them from scratch. Either way: everything runs in sync, no manual intervention."
   },
   "modules": {
     "explore": "See how we solved it",
+    "comingSoon": "Coming Soon",
+    "modalCta": "I want something like this",
+    "modalClose": "Close",
     "MOD_01": {
-      "title": "Automatic Legal Review",
-      "description": "Do you have contracts to review manually before signing? Automate reading and detect risks before they become problems."
+      "title": "AI-Powered Contract Review",
+      "description": "Your legal team doesn't need to read every clause anymore. We built a system that cross-references contracts against current regulations, flags risks, and generates a sign-ready report.",
+      "videoDescription": "A litigation firm spent days prepping for each hearing. We built a system that analyzes the full case file, identifies the most likely opposing arguments, and suggests counterpoints.\n\nThe lawyer gets an actionable briefing before every hearing. They can refine it, add their own judgment, or use it as-is. The AI doesn't replace their expertise — it saves the 6 hours of prep they used to spend per case.\n\nBuilt on real Colombian case law. Case data never leaves the system."
     },
     "MOD_02": {
-      "title": "System Connection",
-      "description": "Is your team wasting time moving data from one system to another? Connect all your platforms and let information flow on its own."
+      "title": "Workflow Orchestration",
+      "description": "Got a CRM, an ERP, and three spreadsheets that don't talk to each other? We connect them so data flows between systems on its own — no one has to copy and paste."
     },
     "MOD_03": {
-      "title": "Audit & Security",
-      "description": "Worried that human error might compromise your company's security? Monitor your infrastructure policies 24/7."
+      "title": "Automated Compliance",
+      "description": "Regulatory monitoring that never sleeps. Cross-checks your internal policies against updated regulations and alerts you before a compliance gap turns into a real problem."
     },
     "MOD_04": {
-      "title": "Data Extraction",
-      "description": "Someone on your team spending hours copying invoice data to Excel? Let AI read and organize the information instantly."
+      "title": "Smart Document Processing",
+      "description": "Invoices, contracts, reports — any document someone reads manually today. We structure it, classify it, and route it where it needs to go."
     },
     "MOD_05": {
-      "title": "Real-time Analytics",
-      "description": "Making decisions based on last week's reports? Visualize your company's exact performance right this second."
+      "title": "Agent Analytics & Monitoring",
+      "description": "If you already have AI agents running, you need to know how they perform. Dashboards showing response times, bottlenecks, and where to optimize."
     },
     "MOD_06": {
-      "title": "Total Synchronization",
-      "description": "Are your databases, CRM and ERP disconnected? Bidirectionally sync your entire operation without human flaws."
+      "title": "System Integration",
+      "description": "Bi-directional connectors across your current stack — ERP, CRM, databases, internal APIs. Everything in sync, no duplicates, no transcription errors."
     },
     "MOD_07": {
-      "title": "Sales Automation",
-      "description": "Losing clients because your sales team is slow to follow up? Automate qualification and initial contact without losing the human touch."
+      "title": "Sales That Move on Their Own",
+      "description": "A system that qualifies leads, builds custom proposals, and books meetings straight into your sales team's calendar. Nobody has to lift a finger.",
+      "videoDescription": "The sales team was losing deals because follow-ups took days. We set up a flow that evaluates every incoming lead, drafts a proposal tailored to the prospect's profile, and books the meeting automatically.\n\nThe sales team now just shows up to close. The pipeline runs itself."
     },
     "MOD_08": {
-      "title": "Customer Service Agent",
-      "description": "Clients waiting hours for a WhatsApp reply? Resolve doubts, schedule appointments and sell 24/7 with a native AI agent."
+      "title": "WhatsApp Customer Support",
+      "description": "A conversational agent that handles real questions, books appointments, and updates your CRM — all inside WhatsApp, 24/7. It escalates to your human team when it needs to.",
+      "videoDescription": "Customers were dropping off because no one answered fast enough. We deployed a native WhatsApp agent that resolves 80% of inquiries, books appointments in the shared calendar, and updates the customer record in the CRM.\n\nWhen a query gets complex, the agent escalates to the human team with the full conversation context. Zero repetition, zero frustration."
     },
     "MOD_09": {
-      "title": "Automatic Reports",
-      "description": "Hate putting together reports on Monday morning? Receive complete, visual analytics directly in your inbox before you even reach the office."
+      "title": "Reports Without Touching a Spreadsheet",
+      "description": "Your weekly reports, built automatically. Pulls data from all your systems, runs the analysis, and lands in your inbox before you get to the office.",
+      "videoDescription": "Every Monday someone spent hours building the weekly report. Now a system pulls data from every source, runs the analysis, and generates a visual report with the metrics that matter.\n\nIt hits your inbox before 7am. Ready for decisions, no human errors, no copy-paste."
     },
-    "bottomCtaText": "Can't find what you're looking for? Tell us your process and we'll build it.",
+    "bottomCtaText": "Don't see your use case here? Tell us what process eats your time and we'll fix it.",
     "bottomCtaButton": "Talk to the team"
+  },
+  "metrics": {
+    "badge": "Real Results",
+    "item1": {
+      "label": "Operational Efficiency",
+      "description": "Average speed increase in processes that used to depend entirely on manual intervention."
+    },
+    "item2": {
+      "label": "Weekly Hours Recovered",
+      "description": "Time each team gets back per week by eliminating repetitive tasks and manual bottlenecks."
+    },
+    "item3": {
+      "label": "Agent Availability",
+      "description": "Our systems and agents run 24/7 with active monitoring. If something breaks, we know before you do."
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Automata | Digital Automation & Orchestration",
+      "description": "We automate any type of business process. From Colombia, we design ecosystems where your software and AI agents collaborate in perfect sync.",
+      "keywords": "business process automation, enterprise AI, artificial intelligence agents, software integration, RPA Colombia, digital orchestration"
+    },
+    "solutions": {
+      "title": "Solutions | Automata Group",
+      "description": "Explore our automation solutions. From AI legal review to automatic reporting and full CRM/ERP synchronization.",
+      "keywords": "AI use cases, legal automation, sales automation, automatic reports"
+    },
+    "about": {
+      "title": "About Us | Automata Group",
+      "description": "We are experts in orchestrating your company's digital brain. Connect your current tools with artificial intelligence.",
+      "keywords": "automation company colombia, agent orchestration, systems integration"
+    },
+    "insights": {
+      "title": "Insights | Automata Group",
+      "description": "Perspectives on the future of work, B2B orchestration, and the impact of AI agents on enterprise operations.",
+      "keywords": "automation blog, future of rpa, ai agents, ai use cases, b2b orchestration"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "badge": "Automation & Orchestration",
+      "title": "We orchestrate your company's digital brain.",
+      "description": "We don't just automate isolated tasks. From Colombia, we design ecosystems where your current software, your human processes, and your Artificial Intelligence agents collaborate in perfect sync. We automate any type of business process regardless of the department."
+    },
+    "cta": {
+      "title": "Ready to scale without limits?",
+      "button": "Schedule Diagnostic"
+    },
+    "bentoGrid": [
+      {
+        "id": "orchestration",
+        "icon": "Network",
+        "title": "Comprehensive Orchestration",
+        "description": "You don't need more isolated software. If you already use CRMs (Salesforce, HubSpot) or ERPs (SAP, Netsuite), we build the invisible communication layer that makes them work in automatic sync. We multiply your team's operational capacity without technological friction.",
+        "className": "md:col-span-2 md:row-span-2"
+      },
+      {
+        "id": "hiddenProblem",
+        "icon": "Unplug",
+        "title": "The Hidden Problem",
+        "description": "Manual tasks and disconnected systems are suffocating your growth. When a human has to be the 'bridge' between two programs, you lose money, time, and strategic talent.",
+        "className": "md:col-span-2 md:row-span-1"
+      },
+      {
+        "id": "philosophy",
+        "icon": "Blocks",
+        "title": "Any Department, Any Process",
+        "description": "If it can be mapped, it can be automated. We are industry-agnostic. From billing to customer service, we transform bottlenecks into digital highways.",
+        "className": "md:col-span-1 md:row-span-1"
+      },
+      {
+        "id": "roi",
+        "icon": "TrendingUp",
+        "title": "Return on Investment (ROI)",
+        "description": "Eliminate errors entirely and reduce execution time by 90%. Scale your operations to accept twice as many clients without inflating your payroll.",
+        "className": "md:col-span-1 md:row-span-1"
+      },
+      {
+        "id": "process",
+        "icon": "Workflow",
+        "title": "Enterprise Architecture",
+        "description": "With world-class Colombian talent, we build deep integrations and tailored AI agents that operate in the background, without interrupting your daily operations.",
+        "className": "md:col-span-2 md:row-span-1"
+      },
+      {
+        "id": "innovation",
+        "icon": "Sparkles",
+        "title": "Continuous Innovation",
+        "description": "Software is not static, and neither are we. We evolve your agents and workflows as new state-of-the-art AI models hit the market.",
+        "className": "md:col-span-1 md:row-span-1"
+      }
+    ],
+    "marquee": {
+      "title": "Integrated Technology Ecosystem"
+    },
+    "timeline": {
+      "title": "Our 2028 Methodology",
+      "steps": [
+        {
+          "title": "Fractal Audit",
+          "description": "We map every interaction, bottleneck, and hidden data flow in your current operation to identify the true capital leakages."
+        },
+        {
+          "title": "Neural Architecture",
+          "description": "We design an ecosystem where your CRMs, ERPs, and databases communicate autonomously, powered by native AI agents."
+        },
+        {
+          "title": "Silent Deployment",
+          "description": "We implement the orchestration in the background, integrating new capabilities without interrupting a single second of your daily operations."
+        },
+        {
+          "title": "Continuous Evolution",
+          "description": "As new and better artificial intelligence models emerge, we update your agents to keep you at the cutting edge."
+        }
+      ]
+    },
+    "globalTalent": {
+      "badge": "World-Class Talent",
+      "title": "Global Enterprise Architecture from Colombia",
+      "description": "We don't outsource. All our code, integrations, and workflows are built by elite Colombian engineers, delivering Silicon Valley-level quality with close and personalized attention."
+    },
+    "cta": {
+      "title": "Ready to scale without limits?",
+      "button": "Schedule Diagnostic"
+    }
+  },
+  "insightsPage": {
+    "hero": {
+      "badge": "Perspectives & Data",
+      "title": "The Future of B2B Orchestration",
+      "description": "Deep analysis, case studies, and reflections on how Artificial Intelligence and systems integration are redefining business growth from Colombia to the world."
+    },
+    "articles": {
+      "art1": {
+        "title": "Why traditional RPA is dying against native AI?",
+        "excerpt": "Bots that simply repeat clicks break when the interface changes. Discover why AI Agents that 'understand' context are the only scalable way to automate in 2028.",
+        "readMore": "Read Insight",
+        "tag": "Artificial Intelligence",
+        "content": [
+          "For the past decade, Robotic Process Automation (RPA) was the shining star of corporate efficiency. Companies invested millions in programming bots that clicked on exact screen coordinates, copied data from specific cells, and filled out forms. It seemed like the future.",
+          "However, today's digital ecosystem is fluid and dynamic. A simple change in your CRM's user interface, an update to the billing platform, or an email with a slightly different format is enough to completely break a traditional RPA flow.",
+          "This is where Native Artificial Intelligence and B2B Orchestration by Automata Group come in. We don't program 'clicks'. We build cognitive ecosystems. Our AI Agents understand the context of the information, read documents semantically, and make real-time decisions if something in the interface changes.",
+          "This evolution transforms automation from a 'fragile process requiring constant maintenance' into a 'resilient infrastructure that learns and adapts'. It's the difference between having a vinyl record player and having a conductor orchestrating your data."
+        ]
+      },
+      "art2": {
+        "title": "How to orchestrate 3 different CRMs without breaking operations",
+        "excerpt": "When you buy a company or merge departments, unifying data is a nightmare. A case study on agnostic integration without migrating massive databases.",
+        "readMore": "Read Insight",
+        "tag": "B2B Systems",
+        "content": [
+          "One of the biggest headaches in corporate scaling, especially during mergers or acquisitions, is information fragmentation. The original sales department uses Salesforce, the new acquisition uses HubSpot, and finance clings to an internal legacy system.",
+          "The traditional solution has always been the dreaded 'migration'. A process that can take years, cost hundreds of thousands of dollars, and almost always results in critical data loss and service interruptions.",
+          "At Automata Group, we propose a different philosophy: Don't migrate, Orchestrate. By building an intelligent middleware layer and deploying orchestrating agents, we connect the APIs of the three systems. Thus, when a lead is closed in HubSpot, the agent creates the corresponding record in Salesforce and sends the order to finance invisibly and in milliseconds.",
+          "The result is a unified company in record time, where every employee continues to use the tool they master, but data flows freely and synchronously throughout the corporation."
+        ]
+      },
+      "art3": {
+        "title": "The impact of AI Agents on sales talent",
+        "excerpt": "They are not here to replace your star salespeople, they are here to free them from manual prospecting and cold follow-ups. This is how we multiply the Sales Pipeline.",
+        "readMore": "Read Insight",
+        "tag": "Orchestration",
+        "content": [
+          "There is a persistent myth in the industry about Artificial Intelligence as a replacement for human work. The reality in high-value B2B environments is very different: AI is a capability multiplier.",
+          "Let's look at the day-to-day of an Account Executive. They spend 60% of their time researching prospects on LinkedIn, writing cold follow-up emails, scheduling meetings, and updating the CRM. Only 40% (or less) is dedicated to actual selling: building relationships, negotiating, and closing deals.",
+          "By integrating automated prospecting agents, we delegate research, hyper-personalized initial outreach, and calendar scheduling to the machine. The AI Agent profiles, contacts, and qualifies the lead.",
+          "When the human intervenes, it is exclusively in meetings with highly qualified prospects ready to buy. By freeing your star talent from robotic tasks, their performance and motivation skyrocket, exponentially raising the company's revenue."
+        ]
+      }
+    },
+    "cta": {
+      "title": "Want to apply these strategies to your operation?",
+      "button": "Talk to Architecture"
+    }
   },
   "form": {
     "title": "System Diagnostic",

@@ -111,6 +111,30 @@ export default {
       maxWidth: {
         "container-max": "1440px",
       },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-15px)' },
+        },
+        'float-delayed': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-15px)' },
+        },
+        marquee: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+        'spin-slow': {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        }
+      },
+      animation: {
+        float: 'float 6s ease-in-out infinite',
+        'float-delayed': 'float-delayed 6s ease-in-out infinite 3s',
+        marquee: 'marquee 30s linear infinite',
+        'spin-slow': 'spin-slow 12s linear infinite',
+      },
     },
   },
   plugins: [],

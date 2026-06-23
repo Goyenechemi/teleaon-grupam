@@ -1,12 +1,12 @@
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 // ─── Metric definition ────────────────────────────────────────
 interface Metric {
   value: number;
   suffix: string;
   prefix?: string;
-  label: string;
-  description: string;
+  translationKey: string;
 }
 
 const METRICS: Metric[] = [
@@ -14,21 +14,18 @@ const METRICS: Metric[] = [
     prefix: "+",
     value: 300,
     suffix: "%",
-    label: "Efficiency Gain",
-    description: "Average operational efficiency improvement across deployed modules.",
+    translationKey: "metrics.item1",
   },
   {
     prefix: "-",
     value: 40,
     suffix: "hrs",
-    label: "Weekly Time Saved",
-    description: "Hours recovered per week through end-to-end workflow automation.",
+    translationKey: "metrics.item2",
   },
   {
     value: 98.5,
     suffix: "%",
-    label: "Uptime SLA",
-    description: "Guaranteed system availability backed by enterprise-grade infrastructure.",
+    translationKey: "metrics.item3",
   },
 ];
 
@@ -57,6 +54,7 @@ function useCountUp(target: number, duration = 1800, start = false) {
 
 // ─── MetricItem ───────────────────────────────────────────────
 function MetricItem({ metric, animate }: { metric: Metric; animate: boolean }) {
+  const { t } = useTranslation();
   const count = useCountUp(metric.value, 1800, animate);
 
   const display =
@@ -70,10 +68,10 @@ function MetricItem({ metric, animate }: { metric: Metric; animate: boolean }) {
         {display}
       </span>
       <span className="font-headline-md text-headline-md text-on-surface mb-1">
-        {metric.label}
+        {t(`${metric.translationKey}.label`)}
       </span>
-      <p className="font-body-md text-body-md text-on-surface-variant">
-        {metric.description}
+      <p className="font-body-md text-body-md text-on-surface-variant text-justify">
+        {t(`${metric.translationKey}.description`)}
       </p>
     </div>
   );
@@ -86,6 +84,7 @@ function MetricItem({ metric, animate }: { metric: Metric; animate: boolean }) {
  * triggered when the section scrolls into view.
  */
 export function SolutionsMetrics() {
+  const { t } = useTranslation();
   const [animate, setAnimate] = useState(false);
   const ref = useRef<HTMLElement>(null);
 
@@ -110,18 +109,18 @@ export function SolutionsMetrics() {
   return (
     <section
       ref={ref}
-      className="w-full py-stack-lg bg-surface-container border-t border-b border-outline-variant"
+      className="w-full pt-stack-lg pb-12 bg-surface-container border-t border-outline-variant"
     >
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         {/* Section label */}
         <span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest block mb-stack-md">
-          Proven Impact
+          {t("metrics.badge")}
         </span>
 
         {/* Metrics grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter">
           {METRICS.map((m) => (
-            <MetricItem key={m.label} metric={m} animate={animate} />
+            <MetricItem key={m.translationKey} metric={m} animate={animate} />
           ))}
         </div>
       </div>

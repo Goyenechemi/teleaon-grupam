@@ -70,7 +70,10 @@ export function DiagnosticForm() {
       <ProgressBar currentStep={currentStep} />
 
       {/* Form steps container */}
-      <div className="relative min-h-[500px] reveal">
+      <div className="relative min-h-[500px] reveal rounded-[48px] bg-surface-container-lowest/80 backdrop-blur-2xl border border-outline-variant/50 overflow-hidden shadow-[0_0_80px_-15px_rgba(255,218,215,0.1)] p-8 md:p-12 mt-8">
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent pointer-events-none" />
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[radial-gradient(circle_at_70%_30%,_rgba(203,233,217,0.15)_0%,_transparent_60%)] pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[radial-gradient(circle_at_30%_70%,_rgba(255,218,215,0.15)_0%,_transparent_60%)] pointer-events-none" />
         <FormStep1
           data={formData}
           onChange={handleFieldChange}

@@ -7,67 +7,245 @@
     "getStarted": "Comenzar"
   },
   "hero": {
-    "title1": "Automatizamos procesos,",
-    "title2": "escalamos resultados.",
-    "subtitle": "Construimos sistemas operativos digitales invisibles. Eliminamos el ruido operativo para que su equipo pueda concentrarse en lo esencial: el crecimiento estratégico y la arquitectura de su negocio.",
-    "ctaPrimary": "Comenzar Evaluación"
+    "badge": "Automatización + Orquestación de Agentes",
+    "title1": "Hay una diferencia entre automatizar procesos y tener una operación que se ejecuta sola.",
+    "title2": "La mayoría de empresas lleva años haciendo lo primero sin llegar nunca a lo segundo.",
+    "subtitle": "Automatizar un proceso es el punto de partida, no el destino. Nosotros tomamos eso y construimos la capa que lo convierte en un sistema real: procesos automatizados que se coordinan entre sí, agentes de IA que trabajan juntos con lógica, trazabilidad en cada paso y sincronización entre todas las plataformas que ya usas. No vendemos herramientas. Construimos el sistema que hace que tu operación funcione sin que nadie tenga que supervisarla.",
+    "ctaPrimary": "Hablemos de tu operación"
   },
   "lixita": {
-    "badge": "Caso de Éxito",
+    "badge": "Un cliente real",
     "title": "Lixita",
     "stat1": "+300% Eficiencia",
     "stat2": "-40hrs/semana",
     "mainVideoLabel": "Documental de Arquitectura Digital",
-    "description": "El desafío era claro: un cuello de botella en la gestión de inventario que paralizaba las operaciones diarias. Diseñamos un flujo de trabajo continuo integrando sus sistemas ERP existentes con notificaciones en tiempo real.",
+    "description": "Cuando llegamos a Lixita, el inventario lo manejaban entre hojas de cálculo, correos y memoria colectiva. Cuarenta horas semanales del equipo, repartidas en copiar, pegar y verificar. Conectamos sus sistemas, automatizamos los flujos y tres meses después esas 40 horas volvieron. Ahora las usan para vender.",
     "before": "Antes",
     "after": "Después"
   },
   "solutionsHero": {
-    "badge": "Mira lo que es posible automatizar hoy",
-    "title1": "Esto es lo que otras empresas",
-    "title2": "ya dejaron de hacer a mano.",
-    "body": "La tecnología ya resolvió los cuellos de botella que frenan tu crecimiento. Descubre los problemas diarios que ya no deberías estar resolviendo con tiempo humano."
+    "badge": "Automatización + Orquestación de Agentes",
+    "title1": "Automatizamos tus procesos.",
+    "title2": "Orquestamos tus agentes e IAs.",
+    "body": "Si ya usas herramientas con IA o agentes, los conectamos entre sí y con el resto de tu operación para que trabajen juntos. Si todavía no los tienes, los construimos desde cero. El resultado es el mismo: todo funciona al unísono, sin intervención manual."
   },
   "modules": {
     "explore": "Ver cómo lo resolvimos",
+    "comingSoon": "Próximamente",
+    "modalCta": "Quiero algo así",
+    "modalClose": "Cerrar",
     "MOD_01": {
-      "title": "Revisión Legal Automática",
-      "description": "¿Tienes contratos que revisar manualmente antes de firmar? Automatiza la lectura y detecta riesgos antes de que se conviertan en problemas."
+      "title": "Revisión Contractual con IA",
+      "description": "Tu equipo legal ya no necesita leer cada cláusula. Diseñamos un sistema que cruza contratos con normativas vigentes, marca riesgos y genera un dictamen listo para firma.",
+      "videoDescription": "Un despacho de abogados litigantes pasaba días preparando cada audiencia. Construimos un sistema que analiza el expediente completo, identifica los argumentos más probables del otro lado y sugiere cómo contrarrestarlos.\n\nEl abogado recibe un resumen accionable antes de cada audiencia. Puede ajustarlo, enriquecerlo con su criterio, o usarlo tal cual. La IA no reemplaza su juicio — le ahorra las 6 horas de preparación que antes invertía en cada caso.\n\nConstruido sobre jurisprudencia colombiana real. Los datos del expediente nunca salen del sistema."
     },
     "MOD_02": {
-      "title": "Conexión de Sistemas",
-      "description": "¿Tu equipo pierde tiempo pasando datos de un sistema a otro? Conecta todas tus plataformas y haz que la información fluya sola."
+      "title": "Orquestación de Flujos",
+      "description": "¿Tienes un CRM, un ERP y tres hojas de cálculo que no se hablan? Los conectamos para que la información fluya sola entre sistemas, sin que nadie copie y pegue."
     },
     "MOD_03": {
-      "title": "Auditoría y Seguridad",
-      "description": "¿Te preocupa que un error humano comprometa la seguridad de tu empresa? Monitorea tus políticas de infraestructura las 24 horas del día."
+      "title": "Compliance Automatizado",
+      "description": "Monitoreo regulatorio que no duerme. Cruza tus políticas internas contra normativas actualizadas y te alerta antes de que un incumplimiento se convierta en problema."
     },
     "MOD_04": {
-      "title": "Extracción de Datos",
-      "description": "¿Alguien en tu equipo pasa horas copiando datos de facturas a un Excel? Deja que la IA lea y organice la información al instante."
+      "title": "Lectura Inteligente de Documentos",
+      "description": "Facturas, contratos, reportes — cualquier documento que hoy alguien lee manualmente. Lo estructuramos, lo clasificamos y lo enviamos donde tiene que estar."
     },
     "MOD_05": {
-      "title": "Analítica en Tiempo Real",
-      "description": "¿Tomas decisiones basadas en reportes de la semana pasada? Visualiza el rendimiento exacto de tu empresa en este preciso momento."
+      "title": "Analítica y Monitoreo de Agentes",
+      "description": "Si ya tienes agentes de IA corriendo, necesitas saber cómo rinden. Dashboards que te muestran tiempos de respuesta, cuellos de botella y dónde optimizar."
     },
     "MOD_06": {
-      "title": "Sincronización Total",
-      "description": "¿Tus bases de datos, CRM y ERP están desconectados? Sincroniza bidireccionalmente toda tu operación sin fallas humanas."
+      "title": "Integración entre Sistemas",
+      "description": "Conectores bidireccionales entre tu stack actual — ERP, CRM, bases de datos, APIs internas. Todo sincronizado, sin duplicados y sin errores de transcripción."
     },
     "MOD_07": {
-      "title": "Automatización de Ventas",
-      "description": "¿Pierdes clientes porque tu equipo de ventas tarda en dar seguimiento? Automatiza la calificación y el contacto inicial sin perder el toque humano."
+      "title": "Ventas que se Mueven Solas",
+      "description": "Un sistema que califica leads, arma propuestas personalizadas y agenda reuniones directo en el calendario de tu equipo comercial. Sin que nadie tenga que mover un dedo.",
+      "videoDescription": "El equipo comercial perdía oportunidades porque tardaban días en dar seguimiento. Montamos un flujo que evalúa cada lead entrante, redacta una propuesta ajustada al perfil del prospecto y agenda la reunión automáticamente.\n\nEl equipo de ventas ahora solo se sienta a cerrar. El pipeline se mueve solo."
     },
     "MOD_08": {
-      "title": "Agente de Atención",
-      "description": "¿Tus clientes esperan horas por una respuesta en WhatsApp? Resuelve dudas, agenda citas y vende 24/7 con un agente IA nativo."
+      "title": "Atención al Cliente por WhatsApp",
+      "description": "Un agente conversacional que resuelve dudas reales, agenda citas y actualiza tu CRM — todo dentro de WhatsApp, 24 horas, 7 días. Escala al equipo humano cuando lo necesita.",
+      "videoDescription": "Los clientes abandonaban el chat porque nadie respondía a tiempo. Implementamos un agente nativo en WhatsApp que resuelve el 80% de las consultas, agenda citas en el calendario compartido y actualiza el estado del cliente en el CRM.\n\nCuando la consulta es compleja, el agente escala al equipo humano con todo el contexto de la conversación intacto. Cero repetición, cero frustración."
     },
     "MOD_09": {
-      "title": "Reportes Automáticos",
-      "description": "¿Odias armar reportes el lunes en la mañana? Recibe análisis completos y visuales directamente en tu correo antes de que llegues a la oficina."
+      "title": "Reportes sin Tocar un Excel",
+      "description": "Tus reportes semanales, armados solos. Consolida datos de todos tus sistemas, corre el análisis y te lo manda por correo antes de que llegues a la oficina.",
+      "videoDescription": "Cada lunes alguien pasaba horas armando el reporte semanal. Ahora un sistema extrae los datos de todas las fuentes, corre el análisis y genera un reporte visual con los indicadores que importan.\n\nLlega al correo antes de las 7am. Listo para tomar decisiones, sin errores humanos, sin copiar y pegar."
     },
-    "bottomCtaText": "¿No encuentras lo que buscas? Cuéntanos tu proceso y lo construimos.",
+    "bottomCtaText": "¿No ves tu caso acá? Cuéntanos qué proceso te quita tiempo y lo resolvemos.",
     "bottomCtaButton": "Hablar con el equipo"
+  },
+  "metrics": {
+    "badge": "Resultados Reales",
+    "item1": {
+      "label": "Eficiencia Operativa",
+      "description": "Incremento promedio en velocidad de ejecución de procesos que antes dependían de intervención manual."
+    },
+    "item2": {
+      "label": "Horas Semanales Recuperadas",
+      "description": "Tiempo que cada equipo recupera por semana al eliminar tareas repetitivas y cuellos de botella manuales."
+    },
+    "item3": {
+      "label": "Disponibilidad de Agentes",
+      "description": "Nuestros sistemas y agentes corren las 24 horas con monitoreo activo. Si algo falla, lo sabemos antes que tú."
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Automata | Automatización y Orquestación Digital",
+      "description": "Automatizamos cualquier tipo de proceso empresarial. Desde Colombia, diseñamos ecosistemas donde tu software y agentes de IA colaboran en perfecta sincronía.",
+      "keywords": "automatización de procesos, IA empresarial, agentes de inteligencia artificial, integración de software, RPA Colombia, orquestación digital"
+    },
+    "solutions": {
+      "title": "Soluciones | Automata Group",
+      "description": "Explora nuestras soluciones de automatización. Desde revisión legal con IA hasta reportes automáticos y sincronización total de sistemas ERP y CRM.",
+      "keywords": "casos de uso IA, automatización legal, automatización de ventas, reportes automáticos"
+    },
+    "about": {
+      "title": "Nosotros | Automata Group",
+      "description": "Somos expertos en orquestar el cerebro digital de tu empresa. Conecta tus herramientas actuales con inteligencia artificial.",
+      "keywords": "empresa automatización colombia, orquestación de agentes, integración de sistemas"
+    },
+    "insights": {
+      "title": "Insights | Automata Group",
+      "description": "Perspectivas sobre el futuro del trabajo, orquestación B2B, y el impacto de los agentes IA en operaciones empresariales.",
+      "keywords": "blog automatización, futuro del rpa, agentes ia, casos de uso ia, orquestación b2b"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "badge": "Automatización & Orquestación",
+      "title": "Orquestamos el cerebro digital de tu empresa.",
+      "description": "No solo automatizamos tareas aisladas. Desde Colombia, diseñamos ecosistemas donde tu software actual, tus procesos humanos y tus agentes de Inteligencia Artificial colaboran en perfecta sincronía. Automatizamos cualquier tipo de proceso empresarial sin importar el área."
+    },
+    "bentoGrid": [
+      {
+        "id": "orchestration",
+        "icon": "Network",
+        "title": "Orquestación Integral",
+        "description": "No necesitas más software aislado. Si ya usas CRMs (Salesforce, HubSpot) o ERPs (SAP, Netsuite), nosotros construimos la capa invisible de comunicación que los hace trabajar en sincronía automática. Multiplicamos la capacidad operativa de tu equipo sin fricciones tecnológicas.",
+        "className": "md:col-span-2 md:row-span-2"
+      },
+      {
+        "id": "hiddenProblem",
+        "icon": "Unplug",
+        "title": "El Problema Oculto",
+        "description": "Las tareas manuales y los sistemas desconectados están ahogando tu crecimiento. Cuando un humano tiene que ser el 'puente' entre dos programas, pierdes dinero, tiempo y talento estratégico.",
+        "className": "md:col-span-2 md:row-span-1"
+      },
+      {
+        "id": "philosophy",
+        "icon": "Blocks",
+        "title": "Cualquier Área, Cualquier Proceso",
+        "description": "Si se puede mapear, se puede automatizar. Somos agnósticos a la industria. Desde facturación hasta servicio al cliente, transformamos cuellos de botella en autopistas digitales.",
+        "className": "md:col-span-1 md:row-span-1"
+      },
+      {
+        "id": "roi",
+        "icon": "TrendingUp",
+        "title": "Retorno de Inversión (ROI)",
+        "description": "Elimina errores casi a cero y reduce el tiempo de ejecución en un 90%. Escala tus operaciones para aceptar el doble de clientes sin necesidad de inflar tu nómina.",
+        "className": "md:col-span-1 md:row-span-1"
+      },
+      {
+        "id": "process",
+        "icon": "Workflow",
+        "title": "Arquitectura Empresarial",
+        "description": "Con talento colombiano de clase mundial, construimos integraciones profundas y agentes IA a medida que operan en segundo plano, sin interrumpir tu operación diaria.",
+        "className": "md:col-span-2 md:row-span-1"
+      },
+      {
+        "id": "innovation",
+        "icon": "Sparkles",
+        "title": "Innovación Continua",
+        "description": "El software no es estático y nosotros tampoco. Evolucionamos tus agentes y flujos de trabajo a medida que salen nuevos modelos de Inteligencia Artificial al mercado.",
+        "className": "md:col-span-1 md:row-span-1"
+      }
+    ],
+    "marquee": {
+      "title": "Ecosistema Tecnológico Integrado"
+    },
+    "timeline": {
+      "title": "Nuestra Metodología 2028",
+      "steps": [
+        {
+          "title": "Auditoría Fractal",
+          "description": "Mapeamos cada interacción, cuello de botella y flujo de datos oculto en tu operación actual para identificar las verdaderas fugas de capital."
+        },
+        {
+          "title": "Arquitectura Neuronal",
+          "description": "Diseñamos un ecosistema donde tus CRMs, ERPs y bases de datos se comunican de forma autónoma, alimentados por agentes de IA nativos."
+        },
+        {
+          "title": "Despliegue Silencioso",
+          "description": "Implementamos la orquestación en segundo plano, integrando las nuevas capacidades sin interrumpir un solo segundo de tu operación diaria."
+        },
+        {
+          "title": "Evolución Continua",
+          "description": "A medida que emergen nuevos y mejores modelos de inteligencia artificial, actualizamos tus agentes para mantenerte a la vanguardia."
+        }
+      ]
+    },
+    "globalTalent": {
+      "badge": "Talento de Exportación",
+      "title": "Arquitectura Empresarial Global desde Colombia",
+      "description": "No subcontratamos. Todo nuestro código, integraciones y flujos son construidos por ingenieros colombianos de élite, entregando una calidad de nivel Silicon Valley con una atención personalizada y cercana."
+    },
+    "cta": {
+      "title": "¿Listo para escalar sin límites?",
+      "button": "Agendar Diagnóstico"
+    }
+  },
+  "insightsPage": {
+    "hero": {
+      "badge": "Perspectivas & Datos",
+      "title": "El Futuro de la Orquestación B2B",
+      "description": "Análisis profundo, casos de estudio y reflexiones sobre cómo la Inteligencia Artificial y la integración de sistemas están redefiniendo el crecimiento empresarial desde Colombia para el mundo."
+    },
+    "articles": {
+      "art1": {
+        "title": "¿Por qué el RPA tradicional está muriendo frente a la IA nativa?",
+        "excerpt": "Los bots que simplemente repiten clics se rompen cuando la interfaz cambia. Descubre por qué los Agentes IA que 'entienden' el contexto son la única forma escalable de automatizar en 2028.",
+        "readMore": "Leer Insight",
+        "tag": "Inteligencia Artificial",
+        "content": [
+          "Durante la última década, la Automatización Robótica de Procesos (RPA) fue la estrella brillante de la eficiencia corporativa. Las empresas invertían millones en programar bots que hacían clics en coordenadas exactas de la pantalla, copiaban datos de celdas específicas y llenaban formularios. Parecía el futuro.",
+          "Sin embargo, el ecosistema digital de hoy es fluido y dinámico. Un simple cambio en la interfaz de usuario de tu CRM, una actualización en la plataforma de facturación, o un correo electrónico con un formato ligeramente distinto, son suficientes para quebrar por completo un flujo de RPA tradicional.",
+          "Aquí es donde entra la Inteligencia Artificial Nativa y la Orquestación B2B de Automata Group. No programamos 'clics'. Construimos ecosistemas cognitivos. Nuestros Agentes IA entienden el contexto de la información, leen semánticamente los documentos y toman decisiones en tiempo real si algo en la interfaz cambia.",
+          "Esta evolución transforma la automatización de un 'proceso frágil que requiere mantenimiento constante' a una 'infraestructura resiliente que aprende y se adapta'. Es la diferencia entre tener una máquina reproductora de vinilos y tener un director de orquesta interactuando con tus datos."
+        ]
+      },
+      "art2": {
+        "title": "Cómo orquestar 3 CRMs distintos sin quebrar la operación",
+        "excerpt": "Cuando compras una empresa o fusionas departamentos, unificar la data es una pesadilla. Un caso de estudio sobre integración agnóstica sin migrar bases de datos masivas.",
+        "readMore": "Leer Insight",
+        "tag": "Sistemas B2B",
+        "content": [
+          "Uno de los mayores dolores de cabeza en el escalamiento corporativo, especialmente durante fusiones o adquisiciones, es la fragmentación de la información. El departamento de ventas original usa Salesforce, la nueva adquisición usa HubSpot, y finanzas se aferra a un sistema interno legacy.",
+          "La solución tradicional siempre ha sido la temida 'migración'. Un proceso que puede tardar años, costar cientos de miles de dólares y casi siempre resulta en pérdida crítica de datos e interrupciones del servicio.",
+          "En Automata Group proponemos una filosofía diferente: No migres, Orquesta. Mediante la construcción de una capa middleware inteligente y el despliegue de agentes orquestadores, conectamos las APIs de los tres sistemas. Así, cuando un lead se cierra en HubSpot, el agente crea el registro correspondiente en Salesforce y envía la orden a finanzas de forma invisible y en milisegundos.",
+          "El resultado es una empresa unificada en tiempo récord, donde cada empleado sigue utilizando la herramienta que domina, pero la data fluye libre y sincrónicamente por toda la corporación."
+        ]
+      },
+      "art3": {
+        "title": "El impacto de los Agentes IA en el talento de ventas",
+        "excerpt": "No vienen a reemplazar a tus vendedores estrella, vienen a liberarlos de la prospección manual y el seguimiento frío. Así multiplicamos el Pipeline de ventas.",
+        "readMore": "Leer Insight",
+        "tag": "Orquestación",
+        "content": [
+          "Existe un mito persistente en la industria sobre la Inteligencia Artificial como un reemplazo del trabajo humano. La realidad en entornos B2B de alto valor es muy diferente: la IA es un multiplicador de capacidades.",
+          "Analicemos el día a día de un ejecutivo de cuentas (Account Executive). Pasa el 60% de su tiempo investigando prospectos en LinkedIn, redactando correos de seguimiento en frío, agendando reuniones y actualizando el CRM. Solo el 40% (o menos) lo dedica a la verdadera venta: construir relaciones, negociar y cerrar tratos.",
+          "Al integrar agentes de prospección automatizada, delegamos la investigación, el alcance inicial (outreach) hiper-personalizado y la programación de calendarios a la máquina. El Agente IA perfila, contacta y califica al lead.",
+          "Cuando el humano interviene, lo hace exclusivamente en reuniones con prospectos altamente calificados y dispuestos a comprar. Al liberar a tu talento estrella de las tareas robóticas, su rendimiento y motivación se disparan, elevando exponencialmente los ingresos de la empresa."
+        ]
+      }
+    },
+    "cta": {
+      "title": "¿Quieres aplicar estas estrategias a tu operación?",
+      "button": "Hablar con Arquitectura"
+    }
   },
   "form": {
     "title": "Diagnóstico de tu Sistema",

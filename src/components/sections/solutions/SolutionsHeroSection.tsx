@@ -16,7 +16,7 @@ export function SolutionsHeroSection() {
   const { t } = useTranslation();
   
   return (
-    <section className="relative w-full overflow-hidden bg-surface-container-lowest py-stack-lg border-b border-outline-variant">
+    <section className="relative w-full overflow-hidden bg-surface-container-lowest pt-10 pb-16 border-b border-outline-variant">
       {/* Premium Canvas Background */}
       <SolutionsCanvas />
 
@@ -24,7 +24,7 @@ export function SolutionsHeroSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-surface-container-lowest/80 pointer-events-none z-0" />
 
       {/* Content Layer */}
-      <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-stack-lg pb-stack-md flex flex-col items-center text-center pointer-events-none">
+      <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-2 pb-4 flex flex-col items-center text-center pointer-events-none">
         
         {/* Badge */}
         <span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest mb-stack-sm border border-outline-variant/50 px-4 py-2 bg-surface-container-lowest/70 backdrop-blur-md shadow-sm">
